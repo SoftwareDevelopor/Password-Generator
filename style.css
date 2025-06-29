@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(198, 171, 223) , rgb(59, 27, 119), black);
+}
+.main{
+    width: 300px;
+    padding: 30px 20px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 2px 2px #adacac;
+    border: 0px solid whitesmoke;
+    background: rgb(90, 23, 154);
+}
+.main h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.main .input-box{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: rgb(5, 5, 117);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-box input{
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+}
+.input-box span{
+    width: 17%;
+    height: 100%;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+input[type=number]{
+    width: 15%;
+    height: 20px;
+    border: none;
+}
+.logic{
+    display: flex;
+    justify-content: space-between;
+}
+.logic p{
+    flex-basis: 85%;
+}
+
+.logicCreation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    background: blue;
+    border: none;
+    cursor: pointer;
+}
