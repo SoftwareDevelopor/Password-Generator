@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 body{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     background: linear-gradient(rgb(198, 171, 223) , rgb(59, 27, 119), black);
 }
